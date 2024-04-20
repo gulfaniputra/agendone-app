@@ -31,7 +31,8 @@ body {
 
 .btn:hover,
 .btn:focus-visible {
-  background: rgb(68, 68, 68);
+  background: black;
+  color: white;
 }
 
 .btn.btn-danger {
@@ -41,20 +42,21 @@ body {
 
 .btn.btn-danger:hover,
 .btn.btn-danger:focus-visible {
-  background: rgb(175, 18, 18);
+  background: red;
+  color: white;
 }
 
 .new-item-form input {
   outline: none;
-  border: 1px solid green;
+  border: 1px solid black;
   background: g;
   border-radius: 0.25em;
   padding: 0.25em 0.5em;
-  color: rgb(79, 167, 79);
+  color: black;
 }
 
 .new-item-form input:focus {
-  border: 1px solid rgb(134, 187, 134);
+  border: 1px solid rgb(196, 196, 196);
 }
 
 .header {
