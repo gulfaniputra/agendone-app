@@ -16,11 +16,11 @@ export function NewTodoForm({ onSubmit }) {
   return (
     <form onSubmit={handleSubmit} className="new-item-form">
       <div className="form-row">
-        <label htmlFor="item">New Task</label>
         <input
           value={newItem}
           onChange={(e) => setNewItem(e.target.value)}
           type="text"
+          placeholder="New Task"
           id="item"
         />
       </div>
